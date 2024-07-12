@@ -26,8 +26,6 @@ void savePokedex(Pokedex *pokedex) {
     }
 }
 
-ytutyutyutyuyu
-
 void loadPokedex(Pokedex *pokedex) {
     FILE *file = fopen(FILENAME, "rb");
     if (file != NULL) {
